@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+    <head>
+        <title>Форма</title>
+        <meta charset="UTF-8">
+    </head>
+
+    <body>
+    <h1 align="center">Лабораторна робота №1 </h1>
+    <h2 align="center">Робота з формами </h2>
+    <h2 align="center">Варіант 15(6) </h2>
+    <h3 align="center"><i>Виконала студентка АнД-31, Чуфістова П.О.</i></h3>
+
+    <table width="20%">
+    <h4>Menu</h4>
+    <tr>
+    <td><a  href="http://127.0.0.1:5500/Lab_01/page_main.html"><i>На головну</i></a></td>
+    <td><a  href="http://127.0.0.1:5500/Lab_01/page_table.html"><i>Таблиці</i></a></td>
+    </tr>
+    </table>
+    <h3 align="center">Завдання</h3>
+    <ul><p><b>
+    Необхідно розробити веб-сторінку для форми з навантаженнями. Необхідно заповнити її відповілними даними:</b>
+    
+        <li><i>Форма має бути наповненою назвами конструкцій та навантажень, а також містити типи навантажень для легкого використання користувачем цих полів </li>
+        <li>Нижня частина форми має бути наповненою характерстиками користувача такі як ПІБ, вік, стать, номер та ел.адреса</i></li>
+   </p> </ul>
+
+<form action="" method="Post">
+    <fieldset  >
+
+        <legend><b>Навантаження</b></legend>
+        <label> Конструкція
+            <select>
+                <option>Покриття, тип I (горизонтальна проекція)</option>
+                <option>Покриття, тип II</option>
+                <option>Балкони(лоджі)</option>
+                <option>Карнизні плити</option>
+            </select>
+        </label>
+
+        <label>   &nbsp;&nbsp;&nbsp;&nbsp; Назва навантаження
+            <select>
+                <option>Без урахування ваги з/б блок</option>
+                <option>З урахування ваги з/б гребенових балок</option>
+                <option>З урахування навантаження від покриття</option>
+                <option>горизонтальна проекція</option>
+                <option>З урахуванням суцільного рівномірного навантаження</option>
+                <option>З урахуванням смугового рівномірного навантаження</option>
+                <option>Фрагмент 3</option>
+                <option>Фрагмент 4</option>
+            </select>
+        </label>
+
+        <p><label> Тип навантаження
+            <select>
+                <option>Постійне</option>
+                <option>Тимчасове тривале</option>
+                <option>Коефіцієнт сполучень</option>
+                <option>Тимчасове короткочасне</option>
+                <option>Коефіцієнт сполучень</option>
+                <option>Тимчасове короткочасне</option>
+                <option>Коефіцієнт сполучень</option>
+                <option>Повненавантаження</option>
+            </select>
+        </p</label>
+        <label>  &nbsp;&nbsp;&nbsp;&nbsp; Навантаження
+            <input id="type_load" type="text">
+        </label>
+        <p><label>Предмет для навантаження</p>
+            <input id="object_load" type="text">
+        </label>
+
+
+   <p> <fieldset align="center">
+        
+        <legend><b>Client_block</b></legend>
+        <p><label>ПІБ
+            <input id="name" type="text">
+        </label>
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;
+            Вік
+            <input id="age" type="number" min="18" max="55">
+        </label></p>
+        <p><b>Cтать</b></p>
+            <tr>
+                <label> чоловіча <input id="male" type="radio" name="sex"></label>
+                <label> жіноча <input id="female" type="radio" name="sex"></label>
+                <label> невизначена <input id="unknown" type="radio" name="sex"></label>
+            </tr> 
+          <p>  <tr>
+        <lebel>Номер   
+            <input id="number_phone" type="number" min="1000000000" max="9999999999">
+        </label>
+        <lebel>email   
+            <input id="email" type="text">
+        </label>
+    </tr></p>
+        </p></fieldset>
+</fieldset>
+</form>
+<button type ="submit" >Відправити</button>
+
+
+    </body>
+    </html>
