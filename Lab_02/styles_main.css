@@ -11,7 +11,10 @@ span.inlineBlock{
 .child1{
         width:20%;
         background-color:rgb(175, 212, 255);
-      }
+        display:inline-block;
+           vertical-align:top;
+        }
+      
     
 .child2{
         width:100%;
@@ -36,6 +39,7 @@ p{
         text-align: center;
         }
 h1{ text-decoration: underline;
+    text-align: center;
 }
 h3,
 h2{
