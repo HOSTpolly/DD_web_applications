@@ -1,0 +1,43 @@
+body{
+    background-color: #c2f0ff;
+    font-weight: normal ;
+}
+
+a{
+    color: #82044d
+    }
+
+.p_blue_i{
+    color: #4da9ff;
+    text-decoration:italic;
+}
+
+.p_blue_underline{
+    color:  #255ba8;
+    text-decoration:underline;
+} 
+
+.p_3{
+    color:  #3d9580;
+}
+
+span{
+    color: rgb(93, 0, 255);
+}
+
+.p_last{
+    color:  #056964;
+    text-align:top;
+    font-weight:bold;
+
+}
+.img_left{
+    float:left;
+    width: 30%;
+    height:20%;
+}
+.img_right{
+    float:right;
+    width: 40%;
+    height:30%;
+}

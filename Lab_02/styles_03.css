@@ -1,0 +1,12 @@
+body{
+    background-image: url("1ph.jpg");
+}
+
+a{
+    color: #82044d;
+    font-weight: bold;
+    }
+
+.child1{
+        background-color:rgb(149, 222, 203);
+      }
