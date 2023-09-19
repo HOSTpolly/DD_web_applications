@@ -3,10 +3,6 @@ body {
         color: #011764;
         /* width: 100%; */
         }
-span.inlineBlock{
-           display:inline-block;
-           vertical-align:top;
-        }
 
 .child1{
         width:100%;
