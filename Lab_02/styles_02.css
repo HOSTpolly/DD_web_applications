@@ -9,7 +9,7 @@ a{
 
 .p_blue_i{
     color: #4da9ff;
-    text-decoration:italic;
+    font-style: italic;
 }
 
 .p_blue_underline{
