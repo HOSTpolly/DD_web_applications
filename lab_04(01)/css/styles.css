@@ -522,13 +522,13 @@ padding-bottom: 96px;
     margin-bottom: 72px;
 }
 
-.modal-form-field,
+
 .form-field{
     position: relative;
     margin-bottom: 32px;
 }
 
-.modal-form-label,
+
 .form-label{
     position: absolute;
     left: 42px;
@@ -543,7 +543,7 @@ padding-bottom: 96px;
     transform: translate(-36px,-40px);
 }
 */
-.modal-form-input,
+
 .form-input{ 
     padding:16px 42px;
     width: 100%;
@@ -554,43 +554,41 @@ padding-bottom: 96px;
     background-color: transparent;
 }
 
-.modal-form-input::placeholder,
+
 .form-input::placeholder{
     color:var(--color-frame-field);
     font-size: 16px;
     line-height: 1.17;
 }
 
-.modal-form-input:focus::placeholder,
+
 .form-input:focus::placeholder{
     color:var(--color-primary-dark)
 }
 
-.modal-form-button,
 .form-button{
     display:block;
     margin: 0 auto 24px;
 }
 
 
-.modal-form-terms,
 .form-terms{
     margin: 0 auto;
     max-width: 220px;
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 12px;
     line-height: 1.5;
     text-align: center;
 
 }
 
-.modal-form-terms-link,
+
 .form-terms-link{
     color:var(--color-primary-dark);
     text-underline-offset: 2px;
 }
 
-.modal-form-terms-link:hover,
+
 .form-terms-link:hover{
     color:var(--color-brand-light);
  }
