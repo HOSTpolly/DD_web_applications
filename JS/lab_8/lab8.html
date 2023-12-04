@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="lab8.css">
+    <script type="text/javascript" src="lab8.js"></script>
+    <title>Лабораторна робота №3. JavaScript</title>
+</head>
+
+<body>
+    <main class="b-main">
+        <header class="b-header">
+            <h1>Лабораторна робота №3. JavaScript</h1>
+            <h2>Виконала студентка групи АнД-31,<br> Чуфістова Поліна</h2>
+        </header>
+        <ul class="navbar">
+            <li><a href="../lab_6/lab6.html">Лабораторна робота №1</a></li>
+            <li><a href="../lab7/lab7.html">Лабораторна робота №2</a></li>
+            <li><a href="../lab_8/lab8.html">Лабораторна робота №3</a></li>
+            <li><a href="../lab9/lab9.html">Лабораторна робота №4</a></li>
+        </ul>
+        <div class="b-div-task">
+        <h2>
+        Завдання №1
+        </h2>
+        <p>На Вашій сторінці є поле вводу,<br>
+            у яке через кому вводяться назви країн.<br>
+            При натисканні на кнопку зробіть так, <br>
+            щоб ці країни записалися в список ul<br> 
+            під поле (кожна країна – окремий li).</p>
+        </div>
+        <div class="first_task">
+            <input type="text" id="country" placeholder="Назви країн">
+            <button onclick="country_li()">Додати країни</button>
+            <p id="result_country"></p>
+        </div>
+        <div>
+            <h2>Sum of Columns</h2>
+
+            <table id="table">
+                <tr>
+                    <td>8</td>
+                    <td>12</td>
+                    <td>1</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>9</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>32</td>
+                    <td>7</td>
+                    <td>9</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>9</td>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+
+            </table>
+        </div>
+        <button id="do" onclick="run()">Виконати</button>
+    </main>
+    <script src="lab8.js"></script>
+</body>
+</html>

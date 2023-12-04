@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Montserrat:wght@400;600&family=Pattaya&family=Poppins:wght@300;400;600;900&family=Roboto:wght@400;500&family=Rubik+Microbe&display=swap');
+html{scroll-behavior: smooth;}
+
+body{
+    background-image: inherit;
+    background-color: #00072D;
+    color:aliceblue;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin:0;
+    width: 100%;
+    height: 100%;
+}
+label,
+legend,
+div,
+table{
+    font-family: 'Pattaya', serif;
+}
+
+.b-header h1,
+.b-header h2{
+    color:aqua;
+}
+
+.b-header{
+    text-align: center;
+    background-image: url(#);
+    margin-top: -22px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position:relative;
+    opacity:0.8;
+}
+
+.navbar{
+    list-style: none;
+    padding-top:30px;
+    /* display: flex; */
+
+}
+
+a{
+    
+    color:aliceblue;
+
+}
+
+a:hover{
+    color: aqua;
+}
+
+.b-div-task h2{
+    color:#00365c;
+}
+.b-div-task{
+    background: linear-gradient( #52D2CA 3.89%, rgba(24, 145, 213, 0.11) 79.2%, rgba(2, 39, 59, 0.00) 99%, rgba(28, 72, 69, 0.34) 99%, rgba(55, 143, 137, 0.68) 99%);
+
+    font-size: regular;
+    padding: 10px 10px 10px 10px;
+
+}
+
+#do{
+    background-color: #fff;
+    border: 1px solid yellow;
+    color: rgb(82, 200, 172);
+    padding: 15px 15px 15px 15px;
+    margin: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease-out;
+    text-align: center;
+}
+#do:hover{
+    background-color: #fff;
+    color:aquamarine;
+    transition: all 0.2s ease-out;
+}
+
+table{
+    background-color: aliceblue;
+    color:rgb(82, 200, 172);
+    border-collapse:separate;
+ }
+table td{
+    border: 3px solid #00365c;
+    padding: 7px 17px;
+    opacity: 0.8;
+}
